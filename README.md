@@ -1,5 +1,5 @@
 ## Running Project Spring Boot
-Preparation tools, menggunakan Intillij IDEA CE (community edition)
+Preparation tools, menggunakan IntilliJ IDEA CE (community edition)
 
 https://github.com/user-attachments/assets/44d15f3e-6c2e-4434-b3a1-ca4f89db4fcb
 
