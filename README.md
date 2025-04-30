@@ -1,3 +1,12 @@
+## Setup First Project
+Untuk membuat project baru Spring Boot dapat dilakukan di website https://start.spring.io/
+
+![Screenshot 2025-05-01 at 03 57 29](https://github.com/user-attachments/assets/24d3b01b-b82d-4acd-b1b7-8b8444ffb0aa)
+
+Setup java version, disini menggunakan openjdk17
+
+![Screenshot 2025-05-01 at 03 57 41](https://github.com/user-attachments/assets/c62d76c7-04f3-4371-9b10-9ef8ff8aa091)
+
 ## Running Project Spring Boot
 Preparation tools, menggunakan IntilliJ IDEA CE (community edition)
 
