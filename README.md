@@ -32,3 +32,25 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.community.dialect.MySQLLeg
 spring.jpa.properties.hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform
 server.port=8098
 ```
+
+Setup privileges untuk `ip address laptop`
+
+```.sh
+~$ sudo /Applications/XAMPP/xamppfiles/bin/mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 26
+Server version: 10.4.28-MariaDB Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.198.187' IDENTIFIED BY '!!&21adi' WITH GRANT OPTION;
+Query OK, 0 rows affected (0.006 sec)
+
+MariaDB [(none)]> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.004 sec)
+
+MariaDB [(none)]>
+```
